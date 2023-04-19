@@ -12,5 +12,14 @@ for(let i=1 ; i<numbers.length; i++ )//using loop to check every elements
 	}
 }
 
+//we can also solve this problem using for....of loop
+// for(let num of numbers)
+// {
+// 	if(num < smallestNumber)
+// 	{
+// 		smallestNumber = num;
+// 	}
+// }
+
 //print the smallest number.
 console.log(smallestNumber);
